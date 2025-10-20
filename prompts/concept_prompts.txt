@@ -1,0 +1,7 @@
+# Concept / brainstorming prompts
+
+1) "I need a web-based 2D board/dice game idea that educates players about plastic pollution in Vietnam. It must be fun, short (3-8 minutes per play), have simple mechanics, and include teachable moments that reflect local practices (e.g., plastic bottles, informal recycling, community cleanups). Generate 6 unique concepts with short gameplay loops, goals, and one-sentence mechanics."
+
+2) "For each concept above, suggest 5 short tile types and a scoring system (how actions affect player's Environment Score)."
+
+3) "Produce a short tagline and 30-second voiceover script for a demo video."

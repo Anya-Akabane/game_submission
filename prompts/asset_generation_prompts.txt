@@ -1,0 +1,7 @@
+# Asset generation prompts (for image models)
+
+1) "Create a 2D top-down sprite of a small paper boat token, friendly style, PNG with transparent background, resolution 128x128, simple flat colors, Vietnamese coastal vibe."
+
+2) "Generate a simple board background image (land + coastline) 1280x720 px, 2D, low-detail, bright friendly palette, includes subtle waves and a small village silhouette."
+
+3) "Create 5 icon-size images (64x64) for tiles: recycle-bin, plastic-bottle, community-hands, storm-cloud, and medal. PNG transparent."

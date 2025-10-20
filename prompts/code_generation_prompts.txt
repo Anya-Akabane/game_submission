@@ -1,0 +1,7 @@
+# Code generation prompts (for LLM-assisted coding)
+
+1) "Write a vanilla JavaScript function `rollDice()` that returns an integer 1–6 and animates a dice element for 800ms. Provide accessible DOM interactions."
+
+2) "Create a simple board-render function in JS that draws tile labels and highlights the player's token position. No frameworks; keep code modular."
+
+3) "Generate an HTML menu page with 'Play' and 'How to Play' modal, and CSS styles that are mobile-friendly."

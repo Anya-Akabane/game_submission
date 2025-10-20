@@ -1,0 +1,7 @@
+# Refinement & debugging prompts
+
+1) "Here's my JS code for moving a token; sometimes the token jumps two tiles. Find a logical bug and propose a fix. [PASTE CODE]"
+
+2) "Improve UX: make dice roll feel satisfying and add a small confetti animation when player finishes the game."
+
+3) "Rewrite the text on 'Action tile' popups to be concise and suitable for a voiceover demo (max 25 words each)."

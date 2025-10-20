@@ -1,0 +1,24 @@
+/* Basic, mobile-friendly styling */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  --accent: #2b9f4b;
+  --muted: #444;
+  --bg: #f7fbfd;
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--muted); display:flex; min-height:100vh; align-items:center; justify-content:center; }
+.screen { width: 95%; max-width:900px; padding:20px; text-align:center; background:white; border-radius:12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
+.hidden { display:none; }
+h1 { margin:6px 0 10px; color:var(--accent); }
+button { background:var(--accent); color:white; border:none; padding:10px 16px; border-radius:8px; font-size:16px; cursor:pointer; }
+button[disabled] { opacity:0.5; cursor:not-allowed; }
+.topbar { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+.board-area { display:flex; gap:16px; align-items:center; flex-wrap:wrap; justify-content:center; }
+canvas#board { background: linear-gradient(#e8f7ff,#fefefe); border-radius:8px; border:1px solid #e6eef2; }
+.controls { display:flex; flex-direction:column; gap:8px; align-items:center; }
+.dice { font-size:28px; padding:10px 16px; border-radius:8px; border:1px solid #ddd; min-width:60px; text-align:center; background:white; }
+.message { min-height:28px; }
+.popup { position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); background:white; border-radius:10px; padding:18px; box-shadow: 0 8px 36px rgba(0,0,0,0.2); width:90%; max-width:480px; }
+.popup button { margin:6px; }
+.result { padding:16px; margin-top:12px; background:#f2fff4; border-radius:8px; border:1px solid #dfeee0; }
+.credits { margin-top:10px; font-size:13px; color:#777; }

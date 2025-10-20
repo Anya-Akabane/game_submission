@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clean Waves — Vibe Coding Game</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Menu -->
+    <div id="menu" class="screen">
+      <h1>Clean Waves</h1>
+      <p>A small board game about plastic choices</p>
+      <button id="startBtn">Play</button>
+      <button id="howBtn">How to Play</button>
+      <div class="credits">Theme: Plastic pollution — Vietnam</div>
+    </div>
+
+    <!-- Game -->
+    <div id="game" class="screen hidden">
+      <div class="topbar">
+        <div id="score">Environment Score: <span id="scoreVal">0</span></div>
+        <button id="backMenu">Menu</button>
+      </div>
+
+      <div class="board-area">
+        <canvas id="board" width="800" height="240"></canvas>
+        <div class="controls">
+          <div id="message" class="message">Press Roll to start</div>
+          <button id="rollBtn">Roll Dice</button>
+          <div id="dice" class="dice">—</div>
+        </div>
+      </div>
+
+      <div id="popup" class="popup hidden">
+        <div id="popupText"></div>
+        <div id="popupChoices"></div>
+      </div>
+
+      <div id="result" class="result hidden"></div>
+    </div>
+
+    <!-- How to -->
+    <div id="how" class="screen hidden">
+      <h2>How to Play</h2>
+      <ol>
+        <li>Roll dice to move along the board.</li>
+        <li>Follow tile instructions: choose actions when prompted.</li>
+        <li>Improve your Environment Score by recycling and community action.</li>
+      </ol>
+      <button id="backFromHow">Back</button>
+    </div>
+  </div>
+
+  <script src="js/game.js"></script>
+</body>
+</html>
